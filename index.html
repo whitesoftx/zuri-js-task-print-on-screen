@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Task - Print on Screen</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <div>
+        <header><h2>JS Task - Print on Screen</h2></header>
+        <hr />
+      </div>
+      <div class="form-input">
+        <form action="">
+          <label for="firsName">Full Name</label><br />
+          <input
+            type="text"
+            name="fullName"
+            id="fullName"
+            placeholder="Enter full name"
+          />
+          <br />
+          <label for="height">Height</label><br />
+          <input
+            type="number"
+            name="myHeight"
+            id="myHeight"
+            placeholder="Enter height in figure, e.g 6.9"
+          />
+          <br />
+          <label for="country">Country</label><br />
+          <input
+            type="text"
+            name="myCountry"
+            id="myCountry"
+            placeholder="Enter Country"
+          />
+          <br />
+          <input
+            type="button"
+            class="btn"
+            value="Print Now"
+            onclick="myFunction()"
+          />
+        </form>
+        <div class="result">
+          <p id="nameResult"></p>
+          <p id="heightResult"></p>
+          <p id="countryResult"></p>
+        </div>
+      </div>
+    </main>
+    <script src="function.js"></script>
+  </body>
+</html>
